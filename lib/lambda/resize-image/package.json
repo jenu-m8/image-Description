@@ -1,0 +1,15 @@
+{
+  "name": "resize-image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.470.0",
+    "@types/aws-lambda": "^8.10.130",
+    "sharp": "^0.33.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.474.0",
+    "@aws-sdk/client-sfn": "^3.474.0"
+  }
+}

@@ -22,7 +22,12 @@
     "strictPropertyInitialization": false,
     "typeRoots": [
       "./node_modules/@types"
-    ]
+    ],
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "lib/*": ["lib/*"]
+    }
   },
   "exclude": [
     "node_modules",

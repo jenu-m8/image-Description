@@ -1,0 +1,8 @@
+{
+  "name": "get-status",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.130"
+  }
+}
