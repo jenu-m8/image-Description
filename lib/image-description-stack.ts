@@ -258,7 +258,7 @@ export class ImageDescriptionStack extends cdk.Stack {
                     image: lambda.Runtime.NODEJS_16_X.bundlingImage,
                     entrypoint: ["/bin/sh", "-c"],
                     command: [
-                        "mkdir -p /asset-output/nodejs && cp -r /asset-input/. /asset-output/nodejs",
+                        "mkdir -p /asset-output/nodejs && cp -au /asset-input/nodejs/. /asset-output/nodejs/",
                     ],
                 },
             }),

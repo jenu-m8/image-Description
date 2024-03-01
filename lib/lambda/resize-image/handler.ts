@@ -53,9 +53,9 @@ export const main: Handler = async (event: S3Event) => {
         const allImagesResized = response.every(
           (item) => item.resized && item.requestId === requestId,
         );
-        // if (allImagesResized) {
-        //   await startExecution(requestId);
-        // }
+        if (allImagesResized) {
+          // await startExecution(requestId);
+        }
       },
     );
 
